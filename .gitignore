@@ -1,0 +1,21 @@
+# Arquivos com secrets OAuth do Google
+backend/connections.json
+backend/simple-google-auth.js
+backend/src/config/integrations.config.ts
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Cache
+.cache/

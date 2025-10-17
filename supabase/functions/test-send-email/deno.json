@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.168.0/",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.7.1",
+    "nodemailer": "npm:nodemailer"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}

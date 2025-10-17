@@ -1,0 +1,281 @@
+{
+  "sidebar": {
+    "home": "Início",
+    "activities": "Actividades",
+    "calendar": "Calendário",
+    "contacts": "Contactos",
+    "companies": "Empresas",
+    "employees": "Funcionários",
+    "products": "Produtos",
+    "inventory": "Inventário",
+    "salesOrders": "Encomendas de Venda",
+    "salesFunnel": "Funil de Vendas",
+    "projects": "Projectos",
+    "whatsapp": "WhatsApp",
+    "aiAgent": "Agente IA",
+    "automations": "Automatizações",
+    "email": "Correio Electrónico",
+    "chat": "Conversação",
+    "settings": "Definições",
+    "collaborations": "Colaborações",
+    "leadsAndSales": "Leads e Vendas",
+    "feed": "Feed",
+    "writeoffs": "Baixas",
+    "suppliers": "Fornecedores",
+    "workGroups": "Grupos de Trabalho",
+    "files": "Ficheiros",
+    "reports": "Relatórios",
+    "reportsDashboard": "Painel de Relatórios"
+  },
+  "topbar": {
+    "search": "Pesquisar",
+    "searchPlaceholder": "Pesquisar...",
+    "notifications": "Notificações",
+    "messages": "Mensagens",
+    "profile": "Perfil",
+    "settings": "Definições",
+    "logout": "Terminar Sessão",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro"
+  },
+  "settings": {
+    "tabs": {
+      "profile": "Perfil",
+      "company": "Empresa",
+      "areas": "Áreas",
+      "roles": "Funções",
+      "users": "Utilizadores",
+      "security": "Segurança",
+      "theme": "Tema",
+      "integrations": "Integrações",
+      "email": "Correio Electrónico",
+      "connections": "Ligações",
+      "structure": "Estrutura"
+    },
+    "profile": {
+      "title": "O Meu Perfil",
+      "fullName": "Nome Completo",
+      "position": "Cargo",
+      "department": "Departamento",
+      "positionNote": "O cargo é definido pelo administrador e não pode ser alterado",
+      "departmentNote": "O departamento é definido pelo administrador e não pode ser alterado",
+      "hoverToEdit": "Passe o rato sobre a fotografia para editar",
+      "maxFileSize": "Qualquer tipo de imagem (máx. 100MB)",
+      "saveChanges": "Guardar Alterações",
+      "saving": "A guardar...",
+      "notInformed": "Não informado"
+    },
+    "company": {
+      "title": "Informações da Empresa",
+      "companyName": "Nome da Empresa",
+      "defaultLanguage": "Idioma Predefinido",
+      "defaultTimezone": "Fuso Horário Predefinido",
+      "defaultCurrency": "Moeda Predefinida",
+      "datetimeFormat": "Formato de Data e Hora"
+    },
+    "language": {
+      "label": "Idioma do Sistema",
+      "pt-BR": "Português (Brasil)",
+      "pt-PT": "Português (Portugal)",
+      "en": "Inglês",
+      "es": "Espanhol",
+      "fr": "Francês"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "title": "Painel",
+      "welcome": "Bem-vindo"
+    },
+    "activities": {
+      "title": "Actividades",
+      "newActivity": "Nova Actividade",
+      "allActivities": "Todas as Actividades"
+    },
+    "calendar": {
+      "title": "Calendário",
+      "today": "Hoje",
+      "week": "Semana",
+      "month": "Mês"
+    },
+    "contacts": {
+      "title": "Contactos",
+      "newContact": "Novo Contacto",
+      "allContacts": "Todos os Contactos"
+    },
+    "companies": {
+      "title": "Empresas",
+      "newCompany": "Nova Empresa",
+      "allCompanies": "Todas as Empresas"
+    },
+    "projects": {
+      "title": "Projectos",
+      "newProject": "Novo Projecto",
+      "allProjects": "Todos os Projectos"
+    },
+    "kanban": {
+      "title": "Kanban",
+      "todo": "A Fazer",
+      "inProgress": "Em Progresso",
+      "done": "Concluído"
+    },
+    "products": {
+      "title": "Produtos"
+    },
+    "transfers": {
+      "title": "Transferências"
+    },
+    "integration": {
+      "title": "Integração"
+    },
+    "salesOrders": {
+      "title": "Encomendas de Venda"
+    },
+    "salesFunnel": {
+      "title": "Funil de Vendas"
+    },
+    "collaborations": {
+      "title": "Colaborações"
+    },
+    "employees": {
+      "title": "Funcionários"
+    }
+  },
+  "filters": {
+    "all": "Todos",
+    "none": "Nenhum",
+    "selectAll": "Seleccionar Todos",
+    "clearFilters": "Limpar Filtros",
+    "applyFilters": "Aplicar Filtros",
+    "resetFilters": "Repor Filtros",
+    "sortBy": "Ordenar por",
+    "sortOrder": "Ordem",
+    "ascending": "Crescente",
+    "descending": "Decrescente",
+    "dateRange": "Intervalo de Datas",
+    "from": "De",
+    "to": "Até",
+    "customRange": "Intervalo Personalizado",
+    "lastWeek": "Última Semana",
+    "lastMonth": "Último Mês",
+    "lastYear": "Último Ano",
+    "thisYear": "Este Ano"
+  },
+  "lists": {
+    "itemsPerPage": "Itens por página",
+    "showing": "A mostrar",
+    "of": "de",
+    "total": "total",
+    "noResults": "Nenhum resultado encontrado",
+    "noData": "Nenhum dado disponível",
+    "loading": "A carregar...",
+    "error": "Erro ao carregar dados",
+    "retry": "Tentar novamente",
+    "refresh": "Actualizar"
+  },
+  "modals": {
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "close": "Fechar",
+    "ok": "OK",
+    "yes": "Sim",
+    "no": "Não",
+    "continue": "Continuar",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "previous": "Anterior",
+    "finish": "Terminar",
+    "submit": "Enviar",
+    "reset": "Repor",
+    "apply": "Aplicar",
+    "discard": "Descartar",
+    "keep": "Manter"
+  },
+  "notifications": {
+    "success": "Sucesso",
+    "error": "Erro",
+    "warning": "Aviso",
+    "info": "Informação",
+    "loading": "A carregar...",
+    "saved": "Guardado com sucesso",
+    "updated": "Actualizado com sucesso",
+    "deleted": "Eliminado com sucesso",
+    "created": "Criado com sucesso",
+    "failed": "Operação falhada",
+    "networkError": "Erro de ligação",
+    "unauthorized": "Não autorizado",
+    "forbidden": "Acesso negado",
+    "notFound": "Não encontrado",
+    "serverError": "Erro do servidor"
+  },
+  "forms": {
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "invalid": "Inválido",
+    "valid": "Válido",
+    "email": "Correio Electrónico",
+    "password": "Palavra-passe",
+    "confirmPassword": "Confirmar Palavra-passe",
+    "phone": "Telefone",
+    "address": "Morada",
+    "city": "Cidade",
+    "state": "Estado",
+    "zipCode": "Código Postal",
+    "country": "País",
+    "website": "Website",
+    "description": "Descrição",
+    "notes": "Notas",
+    "tags": "Etiquetas",
+    "category": "Categoria",
+    "type": "Tipo",
+    "status": "Estado",
+    "priority": "Prioridade",
+    "date": "Data",
+    "time": "Hora",
+    "dateTime": "Data e Hora",
+    "file": "Ficheiro",
+    "image": "Imagem",
+    "document": "Documento",
+    "video": "Vídeo",
+    "audio": "Áudio",
+    "upload": "Carregar",
+    "download": "Transferir",
+    "preview": "Pré-visualizar",
+    "selectFile": "Seleccionar Ficheiro",
+    "dragAndDrop": "Arraste e largue ficheiros aqui",
+    "maxFileSize": "Tamanho máximo do ficheiro",
+    "allowedFormats": "Formatos permitidos"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Adicionar",
+    "search": "Pesquisar",
+    "loading": "A carregar...",
+    "yes": "Sim",
+    "no": "Não",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "previous": "Anterior",
+    "finish": "Terminar",
+    "new": "Novo",
+    "view": "Ver",
+    "download": "Transferir",
+    "upload": "Carregar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "select": "Seleccionar",
+    "all": "Todos",
+    "none": "Nenhum",
+    "success": "Sucesso",
+    "error": "Erro",
+    "warning": "Aviso",
+    "info": "Informação"
+  }
+}

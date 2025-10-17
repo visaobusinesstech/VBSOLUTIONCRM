@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Final - Empresas</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .container { background: #f5f5f5; padding: 20px; border-radius: 10px; }
+        input, button { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 5px; }
+        button { background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .result { margin-top: 20px; padding: 15px; background: white; border-radius: 5px; font-family: monospace; white-space: pre-wrap; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏢 Teste Final - Empresas</h1>
+        
+        <input type="text" id="url" placeholder="URL do Supabase" value="https://nrbsocawokmihvxfcpso.supabase.co">
+        <input type="text" id="key" placeholder="Chave Anon">
+        <button onclick="testFinal()">🚀 Teste Final</button>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        function log(msg) {
+            document.getElementById('result').innerHTML += msg + '\n';
+        }
+        
+        async function testFinal() {
+            const url = document.getElementById('url').value;
+            const key = document.getElementById('key').value;
+            
+            if (!url || !key) {
+                log('❌ Preencha URL e chave!');
+                return;
+            }
+            
+            const supabase = window.supabase.createClient(url, key);
+            
+            try {
+                log('🔍 Testando conexão...');
+                
+                // Teste 1: Buscar empresas existentes
+                const { data: companies, error: companiesError } = await supabase
+                    .from('companies')
+                    .select('*')
+                    .limit(5);
+                
+                if (companiesError) {
+                    log('❌ Erro ao buscar empresas: ' + companiesError.message);
+                    return;
+                }
+                
+                log('✅ Conexão OK! Empresas encontradas: ' + companies.length);
+                
+                // Teste 2: Criar empresa (sem array)
+                log('🏢 Criando empresa...');
+                const companyData = {
+                    fantasy_name: 'Teste Final ' + Date.now(),
+                    company_name: 'Teste Final LTDA',
+                    email: 'teste@final.com',
+                    status: 'active',
+                    owner_id: '00000000-0000-0000-0000-000000000000'
+                };
+                
+                log('📦 Dados: ' + JSON.stringify(companyData, null, 2));
+                
+                const { data, error } = await supabase
+                    .from('companies')
+                    .insert(companyData)
+                    .select();
+                
+                if (error) {
+                    log('❌ Erro: ' + error.message);
+                    log('Código: ' + error.code);
+                    return;
+                }
+                
+                log('✅ Empresa criada: ' + data[0].id);
+                log('🎉 SUCESSO! Empresa criada!');
+                
+            } catch (error) {
+                log('❌ Erro: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>
